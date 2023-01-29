@@ -1,0 +1,20 @@
+#box {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 350px;
+    margin: 0 auto;
+    border: 1px solid black;
+    background: rgba(48, 46, 45, 1);
+    min-height: 250px;
+    padding: 20px;
+    z-index: 9999;
+}
+
+#box .controls input {
+    border-radius: 0px;
+    background: rgb(98, 96, 96);
+    border: 0px;
+    color: #ffffff;
+}
